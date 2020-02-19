@@ -1,0 +1,36 @@
+###############################################################################
+## NEWS to package MKomics
+###############################################################################
+
+###########################################################
+## Version 0.5
+###########################################################
+- resetting old graphics parameters with no.readonly = TRUE
+- mod.t.test gained argument na.rm for computing group means
+
+###########################################################
+## Version 0.4
+###########################################################
+- Removed (orphaned) package 'gplots' from suggests field, use standard 
+  heatmap function from packages 'stats' instead
+
+###########################################################
+## Version 0.3
+###########################################################
+- Added on.exit calls to simPlot, corPlot and madPlot
+
+###########################################################
+## Version 0.2
+###########################################################
+- Changed computations in case of paired moderated t test.
+- Added moderated repeated-measures one-way ANOVA to mod.oneway.test
+
+###########################################################
+## Version 0.1
+###########################################################
+- Start of development
+- Copied functions corDist, corPlot, heatmapCol, madMatrix,
+  madPlot, mod.t.test, mod.oneway.test, oneWayAnova,
+  pairwise.logfc, pairwise.fc, pairwise.mod.t.test, 
+  repMeans, simPlot, stringDist, stringSim, traceBack,
+  twoWayAnova from package MKmisc
