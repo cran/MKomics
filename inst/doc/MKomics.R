@@ -93,14 +93,19 @@ M.cor <- cor(M)
 corPlot(M.cor, minCor = min(M.cor), labels = colnames(M))
 
 ## ---- fig.width=8, fig.height=7-----------------------------------------------
+corPlot2(M.cor, minCor = min(M.cor), labels = colnames(M))
+
+## ---- fig.width=8, fig.height=7-----------------------------------------------
 ## random data
 x <- matrix(rnorm(1000), ncol = 10)
 ## outliers
 x[1:20,5] <- x[1:20,5] + 10
 madPlot(x, new = TRUE, maxMAD = 2.5, labels = TRUE,
         title = "MAD: Outlier visible")
+madPlot2(x, new = TRUE, maxMAD = 2.5, labels = TRUE,
+        title = "MAD: Outlier visible")
 ## in contrast
-corPlot(x, new = TRUE, minCor = -0.5, labels = TRUE,
+corPlot2(x, new = TRUE, minCor = -0.5, labels = TRUE,
         title = "Correlation: Outlier masked")
 
 ## ---- fig.width=7, fig.height=9-----------------------------------------------

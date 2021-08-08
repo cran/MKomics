@@ -19,17 +19,17 @@ and local (Smith-Waterman) alignments with constant gap penalties
 \tabular{ll}{
 Package: \tab MKomics\cr
 Type: \tab Package\cr
-Version: \tab 0.5\cr
-Date: \tab 2020-02-09\cr
+Version: \tab 0.7\cr
+Date: \tab 2021-08-08\cr
 Depends: \tab R(>= 3.5.0)\cr
 Imports: \tab stats, utils, graphics, grDevices, RColorBrewer, robustbase, limma\cr
 Suggests: \tab knitr, rmarkdown\cr
 License: \tab LGPL-3\cr
-URL: \tab http://www.stamats.de/\cr
+URL: \tab https://www.stamats.de/\cr
 }
 library(MKomics)
 }
-\author{ Matthias Kohl \url{http://www.stamats.de}
+\author{ Matthias Kohl \url{https://www.stamats.de}
 
 Maintainer: Matthias Kohl  \email{matthias.kohl@stamats.de}}
 %\references{
